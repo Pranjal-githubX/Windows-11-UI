@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win11</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"
+        integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="line">
+        <div class="openTask">
+            <div class="search-bar">
+                <input type="text" placeholder="Search for apps, settings and documents">
+            </div>
+            <div class="pinned-box">
+                <div class="upper">
+                    <h6>pinned</h6>
+
+                    <button>All apps <i style="transform: rotate(90deg);" class="fa-solid fa-chevron-up"></i></button>
+                </div>
+                <div class="lower">
+                    <div>
+                        <h6>Recommended</h6>
+                        <p>To show your recent files and new apps, turn them on in Settings. <a href="#">Launch Start
+                                settings</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="account">
+                    <div class="img-icon">
+                        <img src="assets/user.jpg" alt="userIcon">
+                    </div>
+                    <h4>Pranjal</h4>
+                </div>
+                <div class="menu">
+                    <div class="box">Sign-in options</div>
+                    <div class="box">Sleep</div>
+                    <div class="box">Shut Down</div>
+                    <div class="box">Restart</div>
+                </div>
+                <div class="options">
+                    <i class="fa-solid fa-gear"></i>
+                    <i id='power' class="fa-solid fa-power-off"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rightTemp"></div>
+        <div class="rightPop">
+            <div class="btn-cont">
+                <div class="btns">
+                    <div class="btn">
+                        <div class="left">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <div class="right">
+                            <i style="transform: rotate(90deg);" class="fa-solid fa-chevron-up"></i>
+
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <div class="left">
+                            <i style="font-size: 15px;" class="fa-brands fa-bluetooth-b"></i>
+                        </div>
+                        <div class="right">
+                            <i style="transform: rotate(90deg);" class="fa-solid fa-chevron-up"></i>
+
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <div class="left">
+                            <i class="fa-solid fa-plane"></i>
+                        </div>
+                        <div class="right">
+                            <i style="transform: rotate(90deg);" class="fa-solid fa-chevron-up"></i>
+
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <div class="left">
+                            <i class="fa-regular fa-sun"></i>
+                        </div>
+                        <div class="right">
+                            <i style="transform: rotate(90deg);" class="fa-solid fa-chevron-up"></i>
+
+                        </div>
+                    </div>
+                    <div class="full-btn btn">
+                        <div class="left">
+                            <!-- <i class="fa-regular fa-sun"></i> -->
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+
+                    </div>
+                    <div class="full-btn btn">
+                        <div class="left">
+                            <i class="fa-regular fa-sun"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="volume">
+                    <div class="range">
+                        <i class="fa-regular fa-sun"></i>
+                        <input type="range" id="brightness">
+                    </div>
+                    <div class="range">
+                        <i class="fa-solid fa-volume-high"></i>
+                        <input type="range" id="sound">
+                    </div>
+                </div>
+            </div>
+            <div class="bottomCont">
+                <!-- <i class="fa-solid fa-battery-three-quarters"></i>
+                75%
+               <div class="botttomRight">
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-solid fa-gear"></i>
+               </div>
+            </div> -->
+
+                <div class="b1">
+                    <i class="fa-solid fa-battery-three-quarters"></i>
+                    75%
+                </div>
+                <div class="b2">
+                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="desktop">
+            <div class="tray">
+
+                <!-- Add using JS -->
+
+            </div>
+
+        </div>
+        <div class="taskbar">
+
+            <div class="widget">
+                <img  src="assets/Weather-icon.png" alt="widget">
+                15&degC
+            </div>
+
+
+            <div class="mainTaskbar">
+                <div class="winIcon">
+
+                    <img id="windowsIcon" src="assets/win.png" alt="">
+                </div>
+                <div class="winIcon">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/4d04d46d-481e-452a-9bfd-75a8c1cc65a3/dfftnhw-434cac4b-0d0f-4b0a-ad84-d02feb4bd730.png"
+                        alt="">
+                </div>
+                <div class="searchBar">
+                    <div class="icon"><img src="assets/search.png" id="srch" alt=""> </div>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+
+
+
+            <div class="notBar">
+                <div class="downIcon">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="lang">
+                    <div class="lang1">ENG</div>
+                    <div class="lang2">In</div>
+                </div>
+                <div class="toolIcons">
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-battery-three-quarters"></i>
+                </div>
+
+
+                <div class="time">
+                    <div class="currTime">
+                        <div style="position: relative; top: 12px;" class="loader"></div>
+                    </div>
+                    <div class="date"></div>
+                </div>
+
+
+                <div class="bell">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
